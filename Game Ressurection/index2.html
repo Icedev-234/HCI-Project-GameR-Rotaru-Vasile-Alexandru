@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style-scholarly.css">
+    <title>Interaction Design Patterns and More</title>
+</head>
+<body>
+    <header>
+        <h1>Game Ressurection - Design Patterns and more</h1>
+      </header>
+      <div role="contentinfo">
+        <ol role="directory">
+            <li><a href="#abstract">1.Abstract</a></li>
+            <li><a href="#introduction">2.Introduction</a></li>
+            <li><a href="#structure">3.Structure</a></li>
+            <li>
+                <ol role="directory">
+                <li><a href="#">3.1 Design Patterns</a></li>
+                <li><a href="#menu">3.2 Main Menu</a></li>
+                <li><a href="#MainGame">3.3 Main Game Frame</a></li>
+                <li><a href="#Options">3.4 Options Menu</a></li>
+                <li><a href="#Missions">3.5 Missions Menu</a></li>
+                <li><a href="#help">3.6 Help Guide Menu</a></li>
+                </ol>
+            </li>
+            <li>
+                <a href="#Storyboards">4.Story Boards</a>
+                <ol role="directory">
+                    <li><a href="#MSB">4.1 Mobile Storyboard</a></li>
+                    <li><a href="#PCSB">4.2 PC Storyboard</a></li>
+                </ol>    
+            </li>
+            <li> <a href="#Demonstration">5. Video Demonstration</a></li>
+        </ol>
+      </div>
+      <div role="contentinfo">
+        <dl>
+          <dt>Authors</dt>
+          <dd>
+            <p>Rotaru Vasile Alexandru</p>
+          </dd>
+          <dt>Bugs &amp; Feedback</dt>
+          <dd>
+            <a href="https://github.com/Icedev-234/HCI-Project-GameR-Rotaru-Vasile-Alexandru.git">Issues and PRs welcome!</a>
+          </dd>
+          <dt>License</dt>
+          <dd>
+            <a href="http://creativecommons.org/licenses/by/4.0/">CC-BY</a>
+          </dd>
+        </dl>
+      </div>
+      <section typeof="sa:Abstract" id="abstract" role="doc-abstract">
+        <h2>Abstract</h2>
+        <p>
+          When it comes to video games in general, one key aspect any UX developer in that category that they need to consider, is the overall look and feel of the menu
+          design, but as well as main game design as well. Doing all of this well, can have benefits, but at the end of it, design is just a part of a game's success.
+        </p>
+      </section>
+      <section id="introduction">
+        <h2>Introduction</h2>
+        <p>
+            For the following content of this documentary, we're going to be discussing the design patterns used in both the mobile version and PC version of the popular game
+            we've all seen time and time again, Tetris. 
+        </p>
+      </section>
+      <section id="structure">
+        <h2>Structure</h2>
+        <p>The following design patterns were used in order to make sure the users have the best interactive experience:</p>
+        <section id="menu">
+            <h2>Main Menu</h2>
+            <p>The most important screen for a game to work on in order to let the user know where to go next. Either to start the game, or enter the missions menu to see
+                what he didn't complete. But he can also check the Options menu to change different settings such as music and sound FX, but if the user doesn't want to play anymore,
+                he can just press the quit button to exit the application itself. The design in both versions uses the slideshow design pattern in order to siplify the overall design so that
+                the user wouldn't be surprised by too many buttons being present in the screen.
+            </p>
+            <p>
+                On the Mobile version of the game, the way the user navigates is quite simple. By simply dragging the button to any dirrection he likes in order to change where to enter. When the user is decided,
+                the user can tap on the said option to enter and do whatever he pleases.
+            </p>
+            <p>
+                On the PC version on the other hand, it works in two ways. While design wise it is the same as the mobile version of the game, but how you control the main menu is completely different.
+                The major difference is that you can either press on the arrows on the screen with the mouse to navigate and click the respective option to enter or start the game, but you can also do the same thing by using the
+                "left" and "right" keys on the keyboard with Enter being the key to access the said options.
+            </p>
+        </section>
+        <section id="MainGame">
+            <h2> Main Game Screen</h2>
+            <p>
+                When the users starts the game, he is greeted by the many labels that the game has such as the number of lines formed through out the run, the current level the user is playing,
+                the number of points he gained situated on the top of the screen, the current Tetris piece the user is placing as well as the next piece that will fall next. All of the labels are sittuated
+                beside the main game label which takes the center stage of the app as the user is focused on placing the piece so that he can form a line depending on his position and his previous placed pieces.
+            </p>
+            <p>
+                The main difference between the PC version and the Mobile version is that the latter has a pause button which sends the user to the pause menu where he can either quit the current session, but as 
+                well as configure the game's options on the fly by entering the options menu. This menu can be accesssed by taping the pause button in the mobile version, while on the PC version, the user presses the 
+                "Esc" key to get there.
+            </p>
+        </section>
+        <section id="Options">
+            <h2>Option Menu</h2>
+            <p>
+                The options that the user can change in the app is the music present whenever the user wants the background music either loud or quiet, but as well as changing the volum of the Sound FX wherever the user wants to up the
+                volume higer or lower. This menu has two variants, one when the users pauses the game and the other in the main menu. The main difference between the two is that the main menu version of the options menu has the help guide button.
+            </p>
+        </section>
+        <section id="Missions">
+          <h2>Missions Menu</h2>
+          <p>
+            This menu consists in how many missions the user did as shown by the first bar above the missions label which shows how many missions the user cleared so far. In both versions of the game, the user can use the arrows placed on the lower side of the 
+            center label in oder to navigate the three missions labels which represent the difficulty of the said missions ranging from beginnner, to normal, to advance all done in the slide show design pattern manner.
+          </p>
+        </section>
+        <section id="help">
+            <h2>Help Guide</h2>
+        <p>
+            In the help menu, located in the "Help & Options", menu, the user can find the intructions of the game, specifically the controls he can use for moving thr same piece,
+            but at the same time, it describes to the user the main objective of Tetris itself. The information itself, regardless of the version you're using is presented on the cneter of the screen,
+            so that the user can read throughly whenever he feels overwhelemed the first time he uses the app or plays a round of Tetris.
+        </p>
+        </section>
+       <section id="Storyboards">
+        <h2>Storyboards for both versions</h2>
+        <h2 id="MSB">Version 1: Mobile Version</h2>
+         <img src="./IMG_20230526_210320.jpg">
+         <img src="./IMG_20230526_210342.jpg">
+        <h2 id="PCSB">Version 2: PC Version</h2>
+         <img src="./IMG_20230526_210411.jpg">
+         <img src="./IMG_20230526_210434.jpg">
+       </section> 
+
+       <section id="Demonstration">
+          <h2>Video Demo</h2>
+          <h2>Mobile Version Demo</h2>
+          <video width="640" height="480" controls>
+            <source src="./Mobile_Version.mp4" type="video/mp4">
+          </video>
+          <h2>PC Version Demo</h2>
+          <video width="640" height="480" controls>
+            <source src="./PC_Version.mp4" type="video/mp4">
+          </video>
+       </section>
+      </section>
+</body>
+</html>
